@@ -20,11 +20,11 @@ def get_lat_long(place_name):
         data = response.json()[0]
         lat = data["lat"]
         lon = data["lon"]
-        print(f"📍 {place_name}")
+        print(f" {place_name}")
         print(f"Latitude: {lat}")
         print(f"Longitude: {lon}\n")
     else:
-        print(f"❌ Could not find coordinates for {place_name}")
+        print(f"Could not find coordinates for {place_name}")
 
 # Example areas in Bangalore
 places = [

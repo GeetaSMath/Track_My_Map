@@ -57,5 +57,4 @@ print(" Mumbai Area Location Finder")
 get_current_location()
 
 area = input("\nEnter the area/locality in Mumbai: ").strip()
-# Get coordinates for that area
 get_mumbai_area_coordinates(area)

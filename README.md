@@ -25,6 +25,8 @@
 
 # 2. geopy (optional method)
 
+![img.png](img.png)
+
 - Purpose: Used for geocoding (finding coordinates for a location name).
 
 ### Why Used:

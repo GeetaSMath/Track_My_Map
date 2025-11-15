@@ -1,4 +1,5 @@
 import requests
+# https://nominatim.org/release-docs/latest/api/Search/
 
 def get_lat_long(place_name):
     """Uses OpenStreetMap’s free API
